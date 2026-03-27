@@ -1,0 +1,37 @@
+admin:
+  password: "admin123"   # Change this! Password to join the admin team
+  team-name: "Admin"
+
+settings:
+  max-team-name-length: 16
+  min-team-name-length: 3
+  chat-format: "[{team}] {player}: {message}"
+  global-format: "[{team}] {player}: {message}"
+  no-team-format: "{player}: {message}"
+  invite-timeout-seconds: 60
+
+messages:
+  prefix: "&8[&bTeams&8] "
+  team-created: "&aTeam &e{team} &acreated successfully!"
+  team-already-exists: "&cA team with that name already exists."
+  team-not-found: "&cTeam not found."
+  not-in-team: "&cYou are not in a team."
+  already-in-team: "&cYou are already in a team. Leave first."
+  invite-sent: "&aInvite sent to &e{player}&a."
+  invite-received: "&e{player} &ainvited you to team &e{team}&a. Type &b/team join {team} &ato accept."
+  invite-expired: "&cYour invite to &e{team} &chas expired."
+  joined-team: "&aYou joined team &e{team}&a!"
+  left-team: "&cYou left team &e{team}&c."
+  kicked-player: "&cYou kicked &e{player} &cfrom the team."
+  kicked-from-team: "&cYou were kicked from team &e{team}&c."
+  no-permission: "&cYou don't have permission to do that."
+  player-not-found: "&cPlayer not found or not online."
+  player-not-in-team: "&cThat player is not in your team."
+  wrong-password: "&cIncorrect password."
+  team-disbanded: "&cTeam &e{team} &chas been disbanded."
+  team-chat-enabled: "&aTeam chat enabled. Your messages will only go to teammates."
+  team-chat-disabled: "&cTeam chat disabled. Talking globally."
+  admin-banned: "&cYou have been banned from admin commands."
+  admin-unbanned: "&aYou have been unbanned from admin commands."
+  ban-target: "&cYou have been banned from admin commands by &e{player}&c."
+  unban-target: "&aYou have been unbanned from admin commands by &e{player}&a."
